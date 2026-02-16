@@ -1,0 +1,110 @@
+{
+  "compiled_package_id": "espresso",
+  "evidence": {
+    "core_skills": [
+      "espresso-build-and-install",
+      "espresso-examples-and-tutorials",
+      "espresso-sphinx",
+      "espresso-simulation-workflows",
+      "espresso-getting-started",
+      "espresso-inputs-and-modeling"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/espresso-build-and-install.md",
+      "skills/.evidence/espresso-examples-and-tutorials.md",
+      "skills/.evidence/espresso-sphinx.md",
+      "skills/.evidence/espresso-simulation-workflows.md",
+      "skills/.evidence/espresso-getting-started.md",
+      "skills/.evidence/espresso-inputs-and-modeling.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Primary documentation root is doc/ (not docs/).",
+      "Examples/tutorials are split across doc/tutorials, samples/, and testsuite tutorial/sample folders.",
+      "Main test harness lives under testsuite/, with additional unit-test directories inside src/.",
+      "sci-skills-generator script was minimally patched to fix Python f-string syntax for dry-run execution."
+    ],
+    "package_name": "ESPResSo",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src"
+    ],
+    "test_dirs": [
+      "testsuite",
+      "src/core/reaction_methods/tests",
+      "src/core/unit_tests",
+      "src/instrumentation/tests",
+      "src/particle_observables/tests",
+      "src/script_interface/tests",
+      "src/shapes/unit_tests",
+      "src/utils/tests",
+      "src/walberla_bridge/tests"
+    ],
+    "tutorial_dirs": [
+      "doc/tutorials",
+      "samples",
+      "testsuite/tutorials",
+      "testsuite/samples"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/espresso-espresso",
+  "validation": {
+    "core_skills_checked": [
+      "espresso-examples-and-tutorials",
+      "espresso-sphinx",
+      "espresso-simulation-workflows",
+      "espresso-build-and-install",
+      "espresso-parallel-hpc",
+      "espresso-getting-started"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/espresso-espresso/skills/espresso-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/espresso-espresso/skills/espresso-sphinx/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/espresso-espresso/skills/espresso-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/espresso-espresso/skills/espresso-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/espresso-espresso/skills/espresso-parallel-hpc/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/espresso-espresso/skills/espresso-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "espresso-index"
+    ],
+    "ok": false,
+    "skills_total": 9,
+    "source_links_total": 97,
+    "topic_skills": 8,
+    "warnings": []
+  }
+}

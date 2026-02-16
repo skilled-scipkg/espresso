@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "espresso-build-and-install",
+    "espresso-examples-and-tutorials",
+    "espresso-sphinx",
+    "espresso-simulation-workflows",
+    "espresso-getting-started",
+    "espresso-inputs-and-modeling"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/espresso-build-and-install.md",
+    "skills/.evidence/espresso-examples-and-tutorials.md",
+    "skills/.evidence/espresso-sphinx.md",
+    "skills/.evidence/espresso-simulation-workflows.md",
+    "skills/.evidence/espresso-getting-started.md",
+    "skills/.evidence/espresso-inputs-and-modeling.md"
+  ]
+}
